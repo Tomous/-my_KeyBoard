@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8096EA78219EBB93000B39C4 /* DCAccountKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096EA77219EBB93000B39C4 /* DCAccountKeyBoard.m */; };
+		8096EA7D219EBD3A000B39C4 /* DCBasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096EA79219EBD3A000B39C4 /* DCBasePickerView.m */; };
+		8096EA7E219EBD3A000B39C4 /* DCDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8096EA7A219EBD3A000B39C4 /* DCDatePickerView.m */; };
 		80DFFC99215F7E7100DC94E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFC98215F7E7100DC94E5 /* AppDelegate.m */; };
 		80DFFC9C215F7E7100DC94E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFC9B215F7E7100DC94E5 /* ViewController.m */; };
 		80DFFC9F215F7E7100DC94E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80DFFC9D215F7E7100DC94E5 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		80DFFCA7215F7E7400DC94E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCA6215F7E7400DC94E5 /* main.m */; };
 		80DFFCB1215F7E7400DC94E5 /* BaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCB0215F7E7400DC94E5 /* BaseDemoTests.m */; };
 		80DFFCBC215F7E7400DC94E5 /* BaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCBB215F7E7400DC94E5 /* BaseDemoUITests.m */; };
+		80DFFCD1215F7F1700DC94E5 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */; };
+		8833E7780B9BCCB3AB79D30F /* libPods-BaseDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF176DDF38DA4DE70CA8B9F /* libPods-BaseDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB0E6AF29F58F23482BA417 /* Pods-BaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaseDemo/Pods-BaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8096EA76219EBB93000B39C4 /* DCAccountKeyBoard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCAccountKeyBoard.h; sourceTree = "<group>"; };
+		8096EA77219EBB93000B39C4 /* DCAccountKeyBoard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCAccountKeyBoard.m; sourceTree = "<group>"; };
+		8096EA79219EBD3A000B39C4 /* DCBasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBasePickerView.m; sourceTree = "<group>"; };
+		8096EA7A219EBD3A000B39C4 /* DCDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDatePickerView.m; sourceTree = "<group>"; };
+		8096EA7B219EBD3A000B39C4 /* DCDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDatePickerView.h; sourceTree = "<group>"; };
+		8096EA7C219EBD3A000B39C4 /* DCBasePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBasePickerView.h; sourceTree = "<group>"; };
 		80DFFC94215F7E7100DC94E5 /* BaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DFFC97215F7E7100DC94E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80DFFC98215F7E7100DC94E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +63,11 @@
 		80DFFCB7215F7E7400DC94E5 /* BaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DFFCBB215F7E7400DC94E5 /* BaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDemoUITests.m; sourceTree = "<group>"; };
 		80DFFCBD215F7E7400DC94E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80DFFCCE215F7EBF00DC94E5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		80DFFCCF215F7F1700DC94E5 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		8DF176DDF38DA4DE70CA8B9F /* libPods-BaseDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaseDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C87C7FBB3CCAB7DE3A857A /* Pods-BaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaseDemo/Pods-BaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8833E7780B9BCCB3AB79D30F /* libPods-BaseDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6028F2DEB779B07CA9210BC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EB0E6AF29F58F23482BA417 /* Pods-BaseDemo.debug.xcconfig */,
+				A9C87C7FBB3CCAB7DE3A857A /* Pods-BaseDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		80DFFC8B215F7E7100DC94E5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				80DFFCAF215F7E7400DC94E5 /* BaseDemoTests */,
 				80DFFCBA215F7E7400DC94E5 /* BaseDemoUITests */,
 				80DFFC95215F7E7100DC94E5 /* Products */,
+				6028F2DEB779B07CA9210BC7 /* Pods */,
+				E31A01812A410BFDECF0E479 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +134,15 @@
 				80DFFC98215F7E7100DC94E5 /* AppDelegate.m */,
 				80DFFC9A215F7E7100DC94E5 /* ViewController.h */,
 				80DFFC9B215F7E7100DC94E5 /* ViewController.m */,
+				8096EA76219EBB93000B39C4 /* DCAccountKeyBoard.h */,
+				8096EA77219EBB93000B39C4 /* DCAccountKeyBoard.m */,
+				80DFFCC9215F7EB500DC94E5 /* Other */,
 				80DFFC9D215F7E7100DC94E5 /* Main.storyboard */,
 				80DFFCA0215F7E7400DC94E5 /* Assets.xcassets */,
 				80DFFCA2215F7E7400DC94E5 /* LaunchScreen.storyboard */,
 				80DFFCA5215F7E7400DC94E5 /* Info.plist */,
 				80DFFCA6215F7E7400DC94E5 /* main.m */,
+				80DFFCCE215F7EBF00DC94E5 /* PrefixHeader.pch */,
 			);
 			path = BaseDemo;
 			sourceTree = "<group>";
@@ -132,6 +165,27 @@
 			path = BaseDemoUITests;
 			sourceTree = "<group>";
 		};
+		80DFFCC9215F7EB500DC94E5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				80DFFCCF215F7F1700DC94E5 /* UIView+Extension.h */,
+				80DFFCD0215F7F1700DC94E5 /* UIView+Extension.m */,
+				8096EA7C219EBD3A000B39C4 /* DCBasePickerView.h */,
+				8096EA79219EBD3A000B39C4 /* DCBasePickerView.m */,
+				8096EA7B219EBD3A000B39C4 /* DCDatePickerView.h */,
+				8096EA7A219EBD3A000B39C4 /* DCDatePickerView.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E31A01812A410BFDECF0E479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DF176DDF38DA4DE70CA8B9F /* libPods-BaseDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +193,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 80DFFCC0215F7E7400DC94E5 /* Build configuration list for PBXNativeTarget "BaseDemo" */;
 			buildPhases = (
+				6CE39DE9CABB2BBBFA0F7F9A /* [CP] Check Pods Manifest.lock */,
 				80DFFC90215F7E7100DC94E5 /* Sources */,
 				80DFFC91215F7E7100DC94E5 /* Frameworks */,
 				80DFFC92215F7E7100DC94E5 /* Resources */,
@@ -257,13 +312,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CE39DE9CABB2BBBFA0F7F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaseDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		80DFFC90215F7E7100DC94E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8096EA7D219EBD3A000B39C4 /* DCBasePickerView.m in Sources */,
+				8096EA78219EBB93000B39C4 /* DCAccountKeyBoard.m in Sources */,
+				8096EA7E219EBD3A000B39C4 /* DCDatePickerView.m in Sources */,
 				80DFFC9C215F7E7100DC94E5 /* ViewController.m in Sources */,
 				80DFFCA7215F7E7400DC94E5 /* main.m in Sources */,
+				80DFFCD1215F7F1700DC94E5 /* UIView+Extension.m in Sources */,
 				80DFFC99215F7E7100DC94E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +513,12 @@
 		};
 		80DFFCC1215F7E7400DC94E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB0E6AF29F58F23482BA417 /* Pods-BaseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,10 +532,12 @@
 		};
 		80DFFCC2215F7E7400DC94E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C87C7FBB3CCAB7DE3A857A /* Pods-BaseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M73FT4GVKP;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BaseDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = BaseDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
